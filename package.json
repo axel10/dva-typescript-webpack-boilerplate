@@ -5,9 +5,7 @@
   "scripts": {
     "dev": "webpack-dev-server --config build/webpack.dev.js",
     "build": "webpack --mode production",
-    "tslint:fix": "tslint --fix \"src/**/*.{ts,tsx}\" ",
-    "prettier": "prettier --write \"src/**/*.{ts,tsx,js,jsx,less,css,json}\" ",
-    "lint": "npm run prettier && npm run tslint:fix"
+    "tslint:fix": "tslint --fix \"src/**/*.{ts,tsx}\" "
   },
   "dependencies": {
     "axios": "^0.18.0",
@@ -46,7 +44,6 @@
     "node-sass": "^4.9.3",
     "postcss-import": "^12.0.0",
     "postcss-loader": "^3.0.0",
-    "prettier": "^1.14.3",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.22.1",
     "ts-loader": "^4.5.0",
