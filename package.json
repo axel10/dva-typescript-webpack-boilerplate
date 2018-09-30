@@ -1,6 +1,6 @@
 {
-  "name": "dva-typescript-webpack-starter-kit",
-  "description": "Boilerplate for Dvajs + Typescript + React + Webpack project",
+  "name": "dva-typescript-webpack-boilerplate",
+  "description": "Boilerplate for Dvajs + Typescript + React + Webpack 4 project",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --config build/webpack.dev.js",
